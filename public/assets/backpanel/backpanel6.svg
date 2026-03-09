@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+  <defs>
+    <linearGradient id="corianPanel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#fcfcfc"/>
+      <stop offset="100%" stop-color="#eeeeee"/>
+    </linearGradient>
+  </defs>
+  <!-- Main white board -->
+  <rect x="10" y="10" width="480" height="330" rx="5" fill="url(#corianPanel)" stroke="#cccccc" stroke-width="2"/>
+  
+  <!-- Inner carved area Background -->
+  <rect x="30" y="30" width="440" height="290" rx="3" fill="#fefefe" stroke="#dcdcdc" stroke-width="1.5"/>
+  
+  <!-- Decorative Jali Carving Lines -->
+  <!-- Detailed paths -->
+  <path d="M50,30 L50,320 M70,30 L70,320 M90,30 L90,320 M110,30 L110,320 M130,30 L130,320 M370,30 L370,320 M390,30 L390,320 M410,30 L410,320 M430,30 L430,320 M450,30 L450,320" stroke="#f0f0f0" stroke-width="2"/>
+  <path d="M30,50 L470,50 M30,70 L470,70 M30,90 L470,90 M30,110 L470,110 M30,130 L470,130 M30,150 L150,150 M350,150 L470,150 M30,170 L150,170 M350,170 L470,170 M30,190 L150,190 M350,190 L470,190 M30,210 L150,210 M350,210 L470,210 M30,230 L150,230 M350,230 L470,230 M30,250 L150,250 M350,250 L470,250 M30,270 L150,270 M350,270 L470,270 M30,290 L150,290 M350,290 L470,290 M30,310 L470,310" stroke="#f0f0f0" stroke-width="2"/>
+  
+  <!-- Circles at intersections to simulate jali/cutout -->
+  <circle cx="90" cy="90" r="15" fill="none" stroke="#e0e0e0" stroke-width="2"/>
+  <circle cx="90" cy="90" r="8" fill="#f8f8f8" stroke="#dcdcdc" stroke-width="1"/>
+  <circle cx="90" cy="250" r="15" fill="none" stroke="#e0e0e0" stroke-width="2"/>
+  <circle cx="90" cy="250" r="8" fill="#f8f8f8" stroke="#dcdcdc" stroke-width="1"/>
+  <circle cx="410" cy="90" r="15" fill="none" stroke="#e0e0e0" stroke-width="2"/>
+  <circle cx="410" cy="90" r="8" fill="#f8f8f8" stroke="#dcdcdc" stroke-width="1"/>
+  <circle cx="410" cy="250" r="15" fill="none" stroke="#e0e0e0" stroke-width="2"/>
+  <circle cx="410" cy="250" r="8" fill="#f8f8f8" stroke="#dcdcdc" stroke-width="1"/>
+
+  <!-- Central Arch / Mandap Motif -->
+  <path d="M150,320 L150,150 Q150,50 250,50 Q350,50 350,150 L350,320 Z" fill="#ffffff" stroke="#cccccc" stroke-width="2"/>
+  <!-- Inner arch detailing -->
+  <path d="M170,320 L170,160 Q170,80 250,80 Q330,80 330,160 L330,320 Z" fill="none" stroke="#e0e0e0" stroke-width="2"/>
+  
+  <!-- Om symbol centrally carved -->
+  <text x="250" y="180" text-anchor="middle" font-size="64" fill="#d0d0d0" font-family="serif">ॐ</text>
+  
+  <!-- Decorative lamps on sides of the arch -->
+  <line x1="200" y1="80" x2="200" y2="150" stroke="#dcdcdc" stroke-width="1.5"/>
+  <circle cx="200" cy="155" r="6" fill="#f5f5f5" stroke="#cccccc" stroke-width="1.5"/>
+  <line x1="300" y1="80" x2="300" y2="150" stroke="#dcdcdc" stroke-width="1.5"/>
+  <circle cx="300" cy="155" r="6" fill="#f5f5f5" stroke="#cccccc" stroke-width="1.5"/>
+</svg>

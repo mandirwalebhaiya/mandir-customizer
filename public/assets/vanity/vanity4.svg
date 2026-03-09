@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <!-- Low open shelf vanity -->
+  <!-- Top surface -->
+  <rect x="10" y="30" width="380" height="15" rx="4" fill="url(#shelfGold)" stroke="#8b5e1a" stroke-width="2"/>
+  <!-- Left support arch -->
+  <path d="M20,45 L20,110 Q20,115 30,115 L80,115 Q90,115 90,110 L90,65 Q90,50 55,45 Z" fill="url(#supportGold)" stroke="#8b5e1a" stroke-width="1.5"/>
+  <!-- Right support arch -->
+  <path d="M310,45 L310,65 Q310,50 345,45 L380,45 L380,110 Q380,115 370,115 L320,115 Q310,115 310,110 Z" fill="url(#supportGold)" stroke="#8b5e1a" stroke-width="1.5"/>
+  <!-- Middle support -->
+  <path d="M170,45 L170,115 L230,115 L230,45 Q200,50 170,45 Z" fill="url(#supportGold)" stroke="#8b5e1a" stroke-width="1.5"/>
+  <!-- Bottom shelf -->
+  <rect x="10" y="108" width="380" height="10" rx="3" fill="url(#shelfGold)" stroke="#8b5e1a" stroke-width="1.5"/>
+  <!-- Decorative cutouts in sides -->
+  <ellipse cx="55" cy="80" rx="18" ry="14" fill="#fffbe8" stroke="#8b5e1a" stroke-width="1.5"/>
+  <ellipse cx="345" cy="80" rx="18" ry="14" fill="#fffbe8" stroke="#8b5e1a" stroke-width="1.5"/>
+  <ellipse cx="200" cy="80" rx="20" ry="14" fill="#fffbe8" stroke="#8b5e1a" stroke-width="1.5"/>
+  <!-- Top edge strip -->
+  <rect x="10" y="24" width="380" height="8" rx="3" fill="#d4a017" stroke="#8b5e1a" stroke-width="1.5"/>
+  <defs>
+    <linearGradient id="shelfGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5d06e"/>
+      <stop offset="100%" stop-color="#c8a44a"/>
+    </linearGradient>
+    <linearGradient id="supportGold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c8a44a"/>
+      <stop offset="50%" stop-color="#f0d080"/>
+      <stop offset="100%" stop-color="#c8a44a"/>
+    </linearGradient>
+  </defs>
+</svg>

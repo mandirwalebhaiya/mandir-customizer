@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <defs>
+    <linearGradient id="corianVanity2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#fdfdfd"/>
+      <stop offset="100%" stop-color="#f0f0f0"/>
+    </linearGradient>
+    <linearGradient id="corianShadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f8f8"/>
+      <stop offset="100%" stop-color="#e0e0e0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Stepped platform vanity -->
+  <!-- Bottom step -->
+  <rect x="10" y="85" width="380" height="28" rx="4" fill="url(#corianShadow)" stroke="#cccccc" stroke-width="1.5"/>
+  <!-- Middle step -->
+  <rect x="22" y="70" width="356" height="20" rx="4" fill="url(#corianShadow)" stroke="#cccccc" stroke-width="1.5"/>
+  <!-- Top step -->
+  <rect x="40" y="52" width="320" height="22" rx="4" fill="url(#corianVanity2)" stroke="#cccccc" stroke-width="1.5"/>
+
+  <!-- Decorative groove lines on top step -->
+  <line x1="50" y1="60" x2="350" y2="60" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="50" y1="66" x2="350" y2="66" stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- Center panel -->
+  <rect x="150" y="5" width="100" height="50" rx="4" fill="url(#corianVanity2)" stroke="#cccccc" stroke-width="1.5"/>
+  
+  <!-- Inset carving area -->
+  <rect x="155" y="10" width="90" height="40" rx="3" fill="#ffffff" stroke="#dcdcdc" stroke-width="1.5"/>
+  
+  <!-- Simple carved Jali lines inside Center panel -->
+  <path d="M165,15 L165,45 M175,15 L175,45 M185,15 L185,45 M215,15 L215,45 M225,15 L225,45 M235,15 L235,45" stroke="#f0f0f0" stroke-width="2" stroke-dasharray="2,2"/>
+  <path d="M165,20 L235,20 M165,30 L235,30 M165,40 L235,40" stroke="#f0f0f0" stroke-width="2" stroke-dasharray="2,2"/>
+
+  <!-- Om -->
+  <text x="200" y="40" text-anchor="middle" font-size="28" fill="#c0c0c0" font-family="serif">ॐ</text>
+
+  <!-- Side Carving Panels -->
+  <rect x="60" y="25" width="80" height="27" rx="3" fill="url(#corianVanity2)" stroke="#cccccc" stroke-width="1.5"/>
+  <rect x="65" y="30" width="70" height="17" rx="2" fill="#ffffff" stroke="#dcdcdc" stroke-width="1.5"/>
+  <path d="M75,35 L125,35 M75,40 L125,40" stroke="#f0f0f0" stroke-width="1.5" stroke-dasharray="4,2"/>
+  
+  <rect x="260" y="25" width="80" height="27" rx="3" fill="url(#corianVanity2)" stroke="#cccccc" stroke-width="1.5"/>
+  <rect x="265" y="30" width="70" height="17" rx="2" fill="#ffffff" stroke="#dcdcdc" stroke-width="1.5"/>
+  <path d="M275,35 L325,35 M275,40 L325,40" stroke="#f0f0f0" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+  <!-- Decor elements / mini urns -->
+  <ellipse cx="50" cy="52" rx="10" ry="6" fill="url(#corianVanity2)" stroke="#cccccc" stroke-width="1.5"/>
+  <circle cx="50" cy="42" r="6" fill="url(#corianShadow)" stroke="#cccccc" stroke-width="1.5"/>
+
+  <ellipse cx="350" cy="52" rx="10" ry="6" fill="url(#corianVanity2)" stroke="#cccccc" stroke-width="1.5"/>
+  <circle cx="350" cy="42" r="6" fill="url(#corianShadow)" stroke="#cccccc" stroke-width="1.5"/>
+
+</svg>

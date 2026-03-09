@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <defs>
+    <linearGradient id="vanityBase" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#fcfcfc"/>
+      <stop offset="100%" stop-color="#f5f5f5"/>
+    </linearGradient>
+    <linearGradient id="goldTrim" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fadd7d"/>
+      <stop offset="50%" stop-color="#e0bd58"/>
+      <stop offset="100%" stop-color="#c49b33"/>
+    </linearGradient>
+    <radialGradient id="goldKnob" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffe699"/>
+      <stop offset="100%" stop-color="#aa8000"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Large Bottom Kickboard -->
+  <rect x="5" y="105" width="390" height="10" fill="#f0f0f0" stroke="#cccccc" stroke-width="1"/>
+  <rect x="10" y="100" width="380" height="5" fill="#f8f8f8" stroke="#dcdcdc" stroke-width="1"/>
+
+  <!-- Main Cabinet Body -->
+  <rect x="5" y="30" width="390" height="70" rx="2" fill="url(#vanityBase)" stroke="#dcdcdc" stroke-width="1.5"/>
+
+  <!-- Scalloped Gold Trim below top shelf -->
+  <path d="M5,25 
+           Q10,32 15,25 Q20,32 25,25 Q30,32 35,25 Q40,32 45,25 Q50,32 55,25 Q60,32 65,25 Q70,32 75,25 Q80,32 85,25 Q90,32 95,25 Q100,32 105,25 Q110,32 115,25 Q120,32 125,25 Q130,32 135,25 Q140,32 145,25 Q150,32 155,25 Q160,32 165,25 Q170,32 175,25 Q180,32 185,25 Q190,32 195,25 Q200,32 205,25 Q210,32 215,25 Q220,32 225,25 Q230,32 235,25 Q240,32 245,25 Q250,32 255,25 Q260,32 265,25 Q270,32 275,25 Q280,32 285,25 Q290,32 295,25 Q300,32 305,25 Q310,32 315,25 Q320,32 325,25 Q330,32 335,25 Q340,32 345,25 Q350,32 355,25 Q360,32 365,25 Q370,32 375,25 Q380,32 385,25 Q390,32 395,25" 
+        fill="url(#goldTrim)" stroke="#c49b33" stroke-width="1"/>
+
+  <!-- Left Cabinet Door -->
+  <rect x="15" y="40" width="85" height="50" rx="1" fill="#fdfdfd" stroke="#e0e0e0" stroke-width="1.5"/>
+  <rect x="20" y="45" width="75" height="40" fill="none" stroke="#f0f0f0" stroke-width="2"/>
+  <circle cx="90" cy="65" r="3.5" fill="url(#goldKnob)" stroke="#a67b00" stroke-width="0.5" filter="drop-shadow(0px 1px 1px rgba(0,0,0,0.15))"/>
+
+  <!-- Right Cabinet Door -->
+  <rect x="300" y="40" width="85" height="50" rx="1" fill="#fdfdfd" stroke="#e0e0e0" stroke-width="1.5"/>
+  <rect x="305" y="45" width="75" height="40" fill="none" stroke="#f0f0f0" stroke-width="2"/>
+  <circle cx="310" cy="65" r="3.5" fill="url(#goldKnob)" stroke="#a67b00" stroke-width="0.5" filter="drop-shadow(0px 1px 1px rgba(0,0,0,0.15))"/>
+
+  <!-- Center Three Tier Drawers -->
+  <g transform="translate(105, 40)">
+    <!-- Drawer 1 -->
+    <rect x="0" y="0" width="190" height="15" rx="1" fill="#fdfdfd" stroke="#e0e0e0" stroke-width="1.5"/>
+    <rect x="3" y="3" width="184" height="9" fill="none" stroke="#f0f0f0" stroke-width="1"/>
+    <circle cx="95" cy="7.5" r="3.5" fill="url(#goldKnob)" stroke="#a67b00" stroke-width="0.5" filter="drop-shadow(0px 1px 1px rgba(0,0,0,0.15))"/>
+
+    <!-- Drawer 2 -->
+    <rect x="0" y="17.5" width="190" height="15" rx="1" fill="#fdfdfd" stroke="#e0e0e0" stroke-width="1.5"/>
+    <rect x="3" y="20.5" width="184" height="9" fill="none" stroke="#f0f0f0" stroke-width="1"/>
+    <circle cx="95" cy="25" r="3.5" fill="url(#goldKnob)" stroke="#a67b00" stroke-width="0.5" filter="drop-shadow(0px 1px 1px rgba(0,0,0,0.15))"/>
+
+    <!-- Drawer 3 -->
+    <rect x="0" y="35" width="190" height="15" rx="1" fill="#fdfdfd" stroke="#e0e0e0" stroke-width="1.5"/>
+    <rect x="3" y="38" width="184" height="9" fill="none" stroke="#f0f0f0" stroke-width="1"/>
+    <circle cx="95" cy="42.5" r="3.5" fill="url(#goldKnob)" stroke="#a67b00" stroke-width="0.5" filter="drop-shadow(0px 1px 1px rgba(0,0,0,0.15))"/>
+  </g>
+
+  <!-- Thick Top Slab / Counter -->
+  <rect x="0" y="10" width="400" height="8" rx="2" fill="url(#vanityBase)" stroke="#cccccc" stroke-width="1.5"/>
+  <rect x="5" y="18" width="390" height="8" fill="#fafafa" stroke="#dcdcdc" stroke-width="1"/>
+
+</svg>

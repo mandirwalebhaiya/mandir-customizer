@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <defs>
+    <linearGradient id="corianVanityPhoto" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#fdfdfd"/>
+      <stop offset="100%" stop-color="#f3f3f3"/>
+    </linearGradient>
+    <linearGradient id="shadowEdge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fafafa"/>
+      <stop offset="100%" stop-color="#e2e2e2"/>
+    </linearGradient>
+    <linearGradient id="goldKnob" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffe699"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#aa8000"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Stepped Vanity Base Body -->
+  <rect x="15" y="100" width="370" height="15" rx="1" fill="url(#shadowEdge)" stroke="#cdcdcd" stroke-width="1.5"/>
+  <rect x="10" y="30" width="380" height="70" rx="2" fill="url(#corianVanityPhoto)" stroke="#dfdfdf" stroke-width="1.5"/>
+
+  <!-- Intricate Scalloped Under-trim -->
+  <path d="M10,35 Q15,40 20,35 Q25,40 30,35 Q35,40 40,35 Q45,40 50,35 Q55,40 60,35 Q65,40 70,35 Q75,40 80,35 Q85,40 90,35 Q95,40 100,35 Q105,40 110,35 Q115,40 120,35 Q125,40 130,35 Q135,40 140,35 Q145,40 150,35 Q155,40 160,35 Q165,40 170,35 Q175,40 180,35 Q185,40 190,35 Q195,40 200,35 Q205,40 210,35 Q215,40 220,35 Q225,40 230,35 Q235,40 240,35 Q245,40 250,35 Q255,40 260,35 Q265,40 270,35 Q275,40 280,35 Q285,40 290,35 Q295,40 300,35 Q305,40 310,35 Q315,40 320,35 Q325,40 330,35 Q335,40 340,35 Q345,40 350,35 Q355,40 360,35 Q365,40 370,35 Q375,40 380,35 Q385,40 390,35" fill="none" stroke="#e0e0e0" stroke-width="2"/>
+
+  <!-- Left Cabinet Door -->
+  <rect x="25" y="45" width="90" height="50" rx="2" fill="url(#corianVanityPhoto)" stroke="#e0e0e0" stroke-width="1.5"/>
+  <rect x="30" y="50" width="80" height="40" rx="1" fill="none" stroke="#efefef" stroke-width="2"/>
+  <rect x="35" y="55" width="70" height="30" rx="1" fill="#fefefe" stroke="#e5e5e5" stroke-width="1"/>
+  <!-- Gold Knob Left -->
+  <circle cx="105" cy="70" r="4" fill="url(#goldKnob)" stroke="#cc9900" stroke-width="0.5" filter="drop-shadow(0px 1px 1px rgba(0,0,0,0.1))"/>
+
+  <!-- Right Cabinet Door -->
+  <rect x="285" y="45" width="90" height="50" rx="2" fill="url(#corianVanityPhoto)" stroke="#e0e0e0" stroke-width="1.5"/>
+  <rect x="290" y="50" width="80" height="40" rx="1" fill="none" stroke="#efefef" stroke-width="2"/>
+  <rect x="295" y="55" width="70" height="30" rx="1" fill="#fefefe" stroke="#e5e5e5" stroke-width="1"/>
+  <!-- Gold Knob Right -->
+  <circle cx="295" cy="70" r="4" fill="url(#goldKnob)" stroke="#cc9900" stroke-width="0.5" filter="drop-shadow(0px 1px 1px rgba(0,0,0,0.1))"/>
+
+
+  <!-- Center Drawers (3 stacked) -->
+  <g transform="translate(125, 45)">
+    <!-- Drawer 1 -->
+    <rect x="0" y="0" width="150" height="15" rx="1" fill="url(#corianVanityPhoto)" stroke="#e0e0e0" stroke-width="1.5"/>
+    <rect x="3" y="3" width="144" height="9" fill="#fefefe" stroke="#efefef" stroke-width="1"/>
+    <circle cx="75" cy="7.5" r="3" fill="url(#goldKnob)" stroke="#cc9900" stroke-width="0.5" filter="drop-shadow(0px 1px 1px rgba(0,0,0,0.1))"/>
+
+    <!-- Drawer 2 -->
+    <rect x="0" y="17.5" width="150" height="15" rx="1" fill="url(#corianVanityPhoto)" stroke="#e0e0e0" stroke-width="1.5"/>
+    <rect x="3" y="20.5" width="144" height="9" fill="#fefefe" stroke="#efefef" stroke-width="1"/>
+    <circle cx="75" cy="25" r="3" fill="url(#goldKnob)" stroke="#cc9900" stroke-width="0.5" filter="drop-shadow(0px 1px 1px rgba(0,0,0,0.1))"/>
+
+    <!-- Drawer 3 -->
+    <rect x="0" y="35" width="150" height="15" rx="1" fill="url(#corianVanityPhoto)" stroke="#e0e0e0" stroke-width="1.5"/>
+    <rect x="3" y="38" width="144" height="9" fill="#fefefe" stroke="#efefef" stroke-width="1"/>
+    <circle cx="75" cy="42.5" r="3" fill="url(#goldKnob)" stroke="#cc9900" stroke-width="0.5" filter="drop-shadow(0px 1px 1px rgba(0,0,0,0.1))"/>
+  </g>
+
+  <!-- Vanity Top Lip / Shelf Tier -->
+  <rect x="15" y="18" width="370" height="12" rx="2" fill="url(#corianVanityPhoto)" stroke="#cccccc" stroke-width="1.5"/>
+  <rect x="25" y="5" width="350" height="13" rx="2" fill="url(#shadowEdge)" stroke="#cccccc" stroke-width="1.5"/>
+
+</svg>

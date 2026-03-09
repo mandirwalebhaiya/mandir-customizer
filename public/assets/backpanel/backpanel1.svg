@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+  <!-- Hyper-compatible Remake: No filters, no radial gradients, flat structure -->
+  <rect x="0" y="0" width="500" height="350" fill="#f8f8f8" stroke="#dddddd" stroke-width="2"/>
+  <rect x="10" y="10" width="480" height="330" rx="3" fill="#ffffff" stroke="#eeeeee" stroke-width="1"/>
+
+  <!-- Center Glow (Simplified as concentric circles for 100% compatibility) -->
+  <circle cx="250" cy="185" r="130" fill="#fff9e6"/>
+  <circle cx="250" cy="185" r="100" fill="#fffef0"/>
+
+  <!-- Ganesha Mantra -->
+  <text x="250" y="55" text-anchor="middle" font-size="14" fill="#b38728" font-family="serif" font-weight="bold">॥ वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ।</text>
+  <text x="250" y="75" text-anchor="middle" font-size="14" fill="#b38728" font-family="serif" font-weight="bold">निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥</text>
+
+  <!-- Hanging Bells -->
+  <g stroke="#d4af37" stroke-width="1.5">
+    <line x1="40" y1="50" x2="40" y2="120" stroke-dasharray="2,2"/>
+    <circle cx="40" cy="120" r="5" fill="#d4af37" stroke="none"/>
+    <line x1="70" y1="50" x2="70" y2="100" stroke-dasharray="2,2"/>
+    <circle cx="70" cy="100" r="5" fill="#d4af37" stroke="none"/>
+    
+    <line x1="460" y1="50" x2="460" y2="120" stroke-dasharray="2,2"/>
+    <circle cx="460" cy="120" r="5" fill="#d4af37" stroke="none"/>
+    <line x1="430" y1="50" x2="430" y2="100" stroke-dasharray="2,2"/>
+    <circle cx="430" cy="100" r="5" fill="#d4af37" stroke="none"/>
+  </g>
+
+  <!-- Mandala Section -->
+  <g transform="translate(250, 185)">
+    <circle r="105" fill="none" stroke="#d4af37" stroke-width="2" stroke-dasharray="3,3"/>
+    <circle r="95" fill="none" stroke="#b38728" stroke-width="4" stroke-dasharray="10,5"/>
+    <circle r="85" fill="none" stroke="#f0f0f0" stroke-width="8"/>
+    
+    <!-- Spokes -->
+    <g stroke="#d4af37" stroke-width="1" opacity="0.6">
+      <line x1="0" y1="-80" x2="0" y2="-60" transform="rotate(0)"/>
+      <line x1="0" y1="-80" x2="0" y2="-60" transform="rotate(30)"/>
+      <line x1="0" y1="-80" x2="0" y2="-60" transform="rotate(60)"/>
+      <line x1="0" y1="-80" x2="0" y2="-60" transform="rotate(90)"/>
+      <line x1="0" y1="-80" x2="0" y2="-60" transform="rotate(120)"/>
+      <line x1="0" y1="-80" x2="0" y2="-60" transform="rotate(150)"/>
+      <line x1="0" y1="-80" x2="0" y2="-60" transform="rotate(180)"/>
+      <line x1="0" y1="-80" x2="0" y2="-60" transform="rotate(210)"/>
+      <line x1="0" y1="-80" x2="0" y2="-60" transform="rotate(240)"/>
+      <line x1="0" y1="-80" x2="0" y2="-60" transform="rotate(270)"/>
+      <line x1="0" y1="-80" x2="0" y2="-60" transform="rotate(300)"/>
+      <line x1="0" y1="-80" x2="0" y2="-60" transform="rotate(330)"/>
+    </g>
+
+    <circle r="55" fill="#ffffff" stroke="#dddddd" stroke-width="1"/>
+    <text y="15" text-anchor="middle" font-size="42" fill="#b38728" font-family="serif" font-weight="bold">ॐ</text>
+  </g>
+
+  <!-- Calligraphy -->
+  <text x="120" y="200" text-anchor="middle" font-size="28" fill="#bc8300" font-family="serif" font-weight="bold">शुभ</text>
+  <text x="380" y="200" text-anchor="middle" font-size="28" fill="#bc8300" font-family="serif" font-weight="bold">लाभ</text>
+
+  <!-- Simple Standing Deepaks -->
+  <g transform="translate(140, 240) scale(0.6)">
+    <path d="M-20,0 L20,0 L15,80 L-15,80 Z" fill="#ffffff" stroke="#d4af37" stroke-width="2"/>
+    <path d="M-30,0 L30,0 Q30,15 0,15 Q-30,15 -30,0 Z" fill="#fffcf0" stroke="#b38728" stroke-width="2"/>
+    <circle r="8" fill="#ffdb4d"/>
+  </g>
+  <g transform="translate(360, 240) scale(0.6)">
+    <path d="M-20,0 L20,0 L15,80 L-15,80 Z" fill="#ffffff" stroke="#d4af37" stroke-width="2"/>
+    <path d="M-30,0 L30,0 Q30,15 0,15 Q-30,15 -30,0 Z" fill="#fffcf0" stroke="#b38728" stroke-width="2"/>
+    <circle r="8" fill="#ffdb4d"/>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <defs>
+    <linearGradient id="corianTop2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#fdfdfd"/>
+      <stop offset="100%" stop-color="#f0f0f0"/>
+    </linearGradient>
+    <linearGradient id="corianShadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f8f8"/>
+      <stop offset="100%" stop-color="#e0e0e0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Rectangular Base Top -->
+  <rect x="20" y="30" width="360" height="70" rx="4" fill="url(#corianTop2)" stroke="#cccccc" stroke-width="1.5"/>
+  
+  <!-- Inset Carving Area -->
+  <rect x="30" y="40" width="340" height="50" rx="3" fill="#fdfdfd" stroke="#dcdcdc" stroke-width="1.5"/>
+  <path d="M40,50 L360,50 M40,60 L360,60 M40,70 L360,70 M40,80 L360,80" stroke="#f0f0f0" stroke-width="2" stroke-dasharray="4,4"/>
+  <path d="M50,40 L50,90 M70,40 L70,90 M90,40 L90,90 M110,40 L110,90 M130,40 L130,90 M270,40 L270,90 M290,40 L290,90 M310,40 L310,90 M330,40 L330,90 M350,40 L350,90" stroke="#f0f0f0" stroke-width="2" stroke-dasharray="4,4"/>
+  
+  <!-- Central focal area for Om -->
+  <rect x="150" y="25" width="100" height="75" rx="4" fill="url(#corianTop2)" stroke="#cccccc" stroke-width="1.5"/>
+  <rect x="160" y="35" width="80" height="55" rx="3" fill="#ffffff" stroke="#dcdcdc" stroke-width="1.5"/>
+  
+  <!-- Central Om Design -->
+  <text x="200" y="75" text-anchor="middle" font-size="38" fill="#c0c0c0" font-family="serif">ॐ</text>
+
+  <!-- Top tier decorations / small rectangle structures instead of domes -->
+  <!-- Center Rectangle -->
+  <rect x="160" y="5" width="80" height="20" rx="2" fill="url(#corianShadow)" stroke="#cccccc" stroke-width="1.5"/>
+  <circle cx="200" cy="5" r="8" fill="url(#corianShadow)" stroke="#cccccc" stroke-width="1.5"/>
+  <circle cx="200" cy="0" r="4" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+
+  <!-- Side Rectangles -->
+  <rect x="40" y="15" width="60" height="15" rx="2" fill="url(#corianShadow)" stroke="#cccccc" stroke-width="1.5"/>
+  <circle cx="70" cy="15" r="6" fill="url(#corianShadow)" stroke="#cccccc" stroke-width="1.5"/>
+  <circle cx="70" cy="10" r="3" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+
+  <rect x="300" y="15" width="60" height="15" rx="2" fill="url(#corianShadow)" stroke="#cccccc" stroke-width="1.5"/>
+  <circle cx="330" cy="15" r="6" fill="url(#corianShadow)" stroke="#cccccc" stroke-width="1.5"/>
+  <circle cx="330" cy="10" r="3" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+
+  <!-- Bottom trim -->
+  <rect x="15" y="100" width="370" height="8" rx="2" fill="url(#corianShadow)" stroke="#cccccc" stroke-width="1.5"/>
+  <rect x="10" y="108" width="380" height="6" rx="2" fill="url(#corianTop2)" stroke="#cccccc" stroke-width="1.5"/>
+</svg>

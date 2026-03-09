@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+  <defs>
+    <linearGradient id="wallBase" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fdfdfd"/>
+      <stop offset="100%" stop-color="#f5f5f5"/>
+    </linearGradient>
+    <radialGradient id="haloGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#fef8bd" stop-opacity="1"/>
+      <stop offset="70%" stop-color="#fadd7d" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Plain backboard -->
+  <rect x="10" y="10" width="480" height="330" rx="3" fill="url(#wallBase)" stroke="#e4e4e4" stroke-width="1.5"/>
+
+  <!-- Halo Backlight -->
+  <circle cx="250" cy="175" r="140" fill="url(#haloGlow)"/>
+
+  <!-- Outer Sunburst Rays (Illuminated dots / rods) -->
+  <g stroke="#ffffff" stroke-width="2" fill="#ffe066">
+    <!-- Generating rays using simple rotation logic translated to static paths -->
+    <line x1="250" y1="45" x2="250" y2="25" stroke="#fadd7d" stroke-width="2.5"/>
+    <circle cx="250" cy="20" r="2" />
+    <line x1="250" y1="305" x2="250" y2="325" stroke="#fadd7d" stroke-width="2.5"/>
+    <circle cx="250" cy="330" r="2" />
+    <line x1="120" y1="175" x2="100" y2="175" stroke="#fadd7d" stroke-width="2.5"/>
+    <circle cx="95" cy="175" r="2" />
+    <line x1="380" y1="175" x2="400" y2="175" stroke="#fadd7d" stroke-width="2.5"/>
+    <circle cx="405" cy="175" r="2" />
+
+    <line x1="158" y1="83" x2="142" y2="67" stroke="#fadd7d" stroke-width="2.5"/>
+    <circle cx="138" cy="63" r="2" />
+    <line x1="342" y1="83" x2="358" y2="67" stroke="#fadd7d" stroke-width="2.5"/>
+    <circle cx="362" cy="63" r="2" />
+    <line x1="158" y1="267" x2="142" y2="283" stroke="#fadd7d" stroke-width="2.5"/>
+    <circle cx="138" cy="287" r="2" />
+    <line x1="342" y1="267" x2="358" y2="283" stroke="#fadd7d" stroke-width="2.5"/>
+    <circle cx="362" cy="287" r="2" />
+  </g>
+
+  <!-- Golden Ring -->
+  <circle cx="250" cy="175" r="110" fill="none" stroke="#e0bd58" stroke-width="6" filter="drop-shadow(0px 2px 4px rgba(200,160,50,0.5))"/>
+  <circle cx="250" cy="175" r="105" fill="none" stroke="#fff1c5" stroke-width="2"/>
+
+  <!-- Inner Mandala Geometric Pattern -->
+  <g stroke="#f8e8a0" stroke-width="1.5" fill="none" opacity="0.8">
+    <!-- Starburst geometric web inside ring -->
+    <path d="M250,75 L285,110 L335,125 L315,175 L335,225 L285,240 L250,275 L215,240 L165,225 L185,175 L165,125 L215,110 Z" />
+    <circle cx="250" cy="175" r="85" stroke-dasharray="2,4" stroke-width="2"/>
+    <path d="M250,90 L250,260 M165,175 L335,175" stroke-width="1"/>
+    <path d="M190,115 L310,235 M190,235 L310,115" stroke-width="1"/>
+  </g>
+
+  <!-- Central Arch / Niche Shape inside the ring -->
+  <!-- (Removed to show full mandala behind the Om) -->
+
+  <!-- Center Om Symbol -->
+  <text x="250" y="180" text-anchor="middle" font-size="48" fill="#d4af37" font-family="serif" font-weight="bold" filter="drop-shadow(0px 2px 2px rgba(200,160,0,0.4))">ॐ</text>
+
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 280" width="80" height="280">
+  <!-- Capital -->
+  <rect x="5" y="10" width="70" height="18" rx="4" fill="#c8a44a" stroke="#8b5e1a" stroke-width="1.5"/>
+  <rect x="15" y="8" width="50" height="8" rx="3" fill="#e5c96d" stroke="#8b5e1a" stroke-width="1"/>
+  <!-- Shaft -->
+  <rect x="18" y="28" width="44" height="200" rx="8" fill="url(#g1)" stroke="#8b5e1a" stroke-width="1.5"/>
+  <!-- Fluting lines -->
+  <line x1="28" y1="32" x2="28" y2="224" stroke="#a07830" stroke-width="1" opacity="0.6"/>
+  <line x1="36" y1="32" x2="36" y2="224" stroke="#a07830" stroke-width="1" opacity="0.6"/>
+  <line x1="44" y1="32" x2="44" y2="224" stroke="#a07830" stroke-width="1" opacity="0.6"/>
+  <line x1="52" y1="32" x2="52" y2="224" stroke="#a07830" stroke-width="1" opacity="0.6"/>
+  <!-- Decorative ring -->
+  <rect x="16" y="100" width="48" height="10" rx="3" fill="#c8a44a" stroke="#8b5e1a" stroke-width="1"/>
+  <!-- Base -->
+  <rect x="10" y="228" width="60" height="20" rx="4" fill="#c8a44a" stroke="#8b5e1a" stroke-width="1.5"/>
+  <rect x="5" y="244" width="70" height="16" rx="3" fill="#a07830" stroke="#8b5e1a" stroke-width="1.5"/>
+  <!-- Om symbol area -->
+  <circle cx="40" cy="145" r="12" fill="#f5d06e" stroke="#8b5e1a" stroke-width="1"/>
+  <text x="40" y="150" text-anchor="middle" font-size="12" fill="#5a3a0a" font-family="serif">ॐ</text>
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#dbb96a"/>
+      <stop offset="40%" stop-color="#f5e4a0"/>
+      <stop offset="100%" stop-color="#c8a44a"/>
+    </linearGradient>
+  </defs>
+</svg>

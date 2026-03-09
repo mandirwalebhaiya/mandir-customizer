@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 280" width="80" height="280">
+  <defs>
+    <!-- White Corian Base Gradient -->
+    <linearGradient id="corianBase" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#eeeeee"/>
+      <stop offset="30%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e0e0e0"/>
+    </linearGradient>
+
+    <!-- Metallic Gold Gradient -->
+    <linearGradient id="goldGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#bf953f"/>
+      <stop offset="25%" stop-color="#fcf6ba"/>
+      <stop offset="50%" stop-color="#b38728"/>
+      <stop offset="75%" stop-color="#fbf5b7"/>
+      <stop offset="100%" stop-color="#aa771c"/>
+    </linearGradient>
+
+    <filter id="pillarShadow" x="-20%" y="-5%" width="140%" height="110%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.2"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Scale carefully to fit the new 280 height -->
+  <g transform="scale(1, 0.7) translate(0, 0)">
+    <!-- Pillar Cap (Top) -->
+    <rect x="5" y="5" width="70" height="15" rx="3" fill="url(#goldGradient)" stroke="#8b6d1a" stroke-width="0.5" filter="url(#pillarShadow)"/>
+    <rect x="10" y="20" width="60" height="10" rx="2" fill="url(#corianBase)" stroke="#ccc" stroke-width="0.5"/>
+
+    <!-- Main Rounded Shaft -->
+    <rect x="15" y="30" width="50" height="340" rx="25" fill="url(#corianBase)" stroke="#ddd" stroke-width="1"/>
+
+    <!-- Gold Strategic Rings (Lines) -->
+    <g stroke-width="0">
+      <!-- Top Accent Rings -->
+      <rect x="13" y="60" width="54" height="4" rx="2" fill="url(#goldGradient)"/>
+      <rect x="13" y="68" width="54" height="2" rx="1" fill="url(#goldGradient)"/>
+      
+      <!-- Middle Accent Rings -->
+      <rect x="13" y="190" width="54" height="6" rx="3" fill="url(#goldGradient)"/>
+      <rect x="13" y="200" width="54" height="2" rx="1" fill="url(#goldGradient)"/>
+      <rect x="13" y="206" width="54" height="2" rx="1" fill="url(#goldGradient)"/>
+
+      <!-- Bottom Accent Rings -->
+      <rect x="13" y="320" width="54" height="4" rx="2" fill="url(#goldGradient)"/>
+      <rect x="13" y="328" width="54" height="2" rx="1" fill="url(#goldGradient)"/>
+    </g>
+
+    <!-- Pillar Base (Bottom) -->
+    <rect x="10" y="370" width="60" height="10" rx="2" fill="url(#corianBase)" stroke="#ccc" stroke-width="0.5"/>
+    <rect x="5" y="380" width="70" height="15" rx="3" fill="url(#goldGradient)" stroke="#8b6d1a" stroke-width="0.5" filter="url(#pillarShadow)"/>
+  </g>
+</svg>

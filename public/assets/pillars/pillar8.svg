@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 280" width="80" height="280">
+  <defs>
+    <linearGradient id="solidPillar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fdfdfd"/>
+      <stop offset="20%" stop-color="#ffffff"/>
+      <stop offset="80%" stop-color="#f5f5f5"/>
+      <stop offset="100%" stop-color="#e8e8e8"/>
+    </linearGradient>
+    <linearGradient id="solidShadow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f4f4f4"/>
+      <stop offset="50%" stop-color="#fafafa"/>
+      <stop offset="100%" stop-color="#e0e0e0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Top Support Block -->
+  <rect x="5" y="10" width="70" height="15" rx="1" fill="url(#solidPillar)" stroke="#cccccc" stroke-width="1.5"/>
+  <rect x="10" y="25" width="60" height="5" fill="url(#solidShadow)" stroke="#dcdcdc" stroke-width="1"/>
+
+  <!-- Ornate Corinthian/Roman Style Capital -->
+  <!-- Wide top flare -->
+  <path d="M10,30 L70,30 Q65,45 55,50 Q40,55 25,50 Q15,45 10,30" fill="url(#solidPillar)" stroke="#cccccc" stroke-width="1.5"/>
+  
+  <!-- Sculpted Acanthus leaves detail -->
+  <path d="M40,30 L40,50 M30,30 L32,48 M50,30 L48,48 M20,30 L25,43 M60,30 L55,43" stroke="#dcdcdc" stroke-width="2" fill="none"/>
+  <path d="M35,40 Q40,45 45,40" stroke="#cccccc" stroke-width="1.5" fill="none"/>
+
+  <!-- Lower capital rings -->
+  <rect x="22" y="50" width="36" height="5" rx="1" fill="url(#solidShadow)" stroke="#cccccc" stroke-width="1"/>
+  <rect x="20" y="55" width="40" height="8" rx="2" fill="url(#solidPillar)" stroke="#cccccc" stroke-width="1.5"/>
+
+  <!-- Main Shaft (Thick Fluted Cylinder mirroring the image) -->
+  <rect x="23" y="63" width="34" height="157" fill="url(#solidPillar)" stroke="#cccccc" stroke-width="1.5"/>
+  
+  <!-- Deep straight flute lines -->
+  <line x1="28" y1="63" x2="28" y2="220" stroke="#e0e0e0" stroke-width="2"/>
+  <line x1="34" y1="63" x2="34" y2="220" stroke="#ebebeb" stroke-width="2"/>
+  <line x1="40" y1="63" x2="40" y2="220" stroke="#ebebeb" stroke-width="2"/>
+  <line x1="46" y1="63" x2="46" y2="220" stroke="#e0e0e0" stroke-width="2"/>
+  <line x1="52" y1="63" x2="52" y2="220" stroke="#dcdcdc" stroke-width="1.5"/>
+
+  <!-- Lower Base Collar (Lotus Motif Layer) -->
+  <rect x="20" y="220" width="40" height="8" rx="2" fill="url(#solidPillar)" stroke="#cccccc" stroke-width="1.5"/>
+  
+  <!-- Tapered Lotus Pedal Base -->
+  <path d="M15,228 L65,228 Q60,245 50,250 Q40,255 30,250 Q20,245 15,228" fill="url(#solidShadow)" stroke="#cccccc" stroke-width="1.5"/>
+  <path d="M40,228 L40,248 M30,228 L32,246 M50,228 L48,246 M20,228 L25,241 M60,228 L55,241" stroke="#dcdcdc" stroke-width="1.5" fill="none"/>
+
+  <!-- Bottom Plinth Rings -->
+  <rect x="22" y="250" width="36" height="5" rx="1" fill="url(#solidPillar)" stroke="#cccccc" stroke-width="1"/>
+  <rect x="15" y="255" width="50" height="10" rx="2" fill="url(#solidShadow)" stroke="#cccccc" stroke-width="1.5"/>
+  <rect x="10" y="265" width="60" height="12" rx="1" fill="url(#solidPillar)" stroke="#cccccc" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+  <defs>
+    <linearGradient id="corianBase" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#f8f8f8"/>
+      <stop offset="100%" stop-color="#eeeeee"/>
+    </linearGradient>
+    <radialGradient id="backlight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff5cc" stop-opacity="1"/>
+      <stop offset="70%" stop-color="#fdeaaa" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Plain backboard -->
+  <rect x="10" y="10" width="480" height="330" rx="4" fill="url(#corianBase)" stroke="#e0e0e0" stroke-width="1.5"/>
+
+  <!-- Backlight Glow for the Mandala -->
+  <circle cx="250" cy="175" r="140" fill="url(#backlight)"/>
+
+  <!-- Outer Mandala Jali Pattern -->
+  <circle cx="250" cy="175" r="130" fill="none" stroke="#f0f0f0" stroke-width="6" stroke-dasharray="8,8"/>
+  <circle cx="250" cy="175" r="120" fill="none" stroke="#f0f0f0" stroke-width="4"/>
+  <circle cx="250" cy="175" r="115" fill="none" stroke="#fcfcfc" stroke-width="8" stroke-dasharray="15,5"/>
+  <circle cx="250" cy="175" r="105" fill="none" stroke="#e8e8e8" stroke-width="1"/>
+  
+  <!-- Jali Grid Pattern Backdrop -->
+  <g stroke="#f4f4f4" stroke-width="1.5" opacity="0.9">
+    <path d="M150,75 L350,275 M160,75 L350,265 M170,75 L350,255 M180,75 L350,245 M190,75 L350,235 M200,75 L350,225" />
+    <path d="M150,275 L350,75 M160,275 L350,85 M170,275 L350,95 M180,275 L350,105 M190,275 L350,115 M200,275 L350,125" />
+    <path d="M140,85 L340,285 M130,95 L330,295 M120,105 L320,305" />
+    <path d="M140,265 L340,65 M130,255 L330,55 M120,245 L320,45" />
+  </g>
+
+  <!-- Inner Mandala Ring -->
+  <circle cx="250" cy="175" r="90" fill="none" stroke="#ffffff" stroke-width="4" filter="drop-shadow(0px 2px 2px rgba(0,0,0,0.1))"/>
+
+  <!-- Central Lotus Flower -->
+  <path d="M250,90 Q270,140 250,200 Q230,140 250,90" fill="#ffffff" stroke="#e8e8e8" stroke-width="1.5" filter="drop-shadow(0px 1px 3px rgba(0,0,0,0.1))"/>
+  
+  <!-- Right Petals -->
+  <path d="M250,110 Q290,140 260,200 Q240,160 250,110" fill="#ffffff" stroke="#e8e8e8" stroke-width="1.5" filter="drop-shadow(0px 1px 3px rgba(0,0,0,0.1))"/>
+  <path d="M260,135 Q310,160 270,200 Q260,170 260,135" fill="#ffffff" stroke="#e8e8e8" stroke-width="1.5" filter="drop-shadow(0px 1px 3px rgba(0,0,0,0.1))"/>
+  <path d="M270,160 Q320,180 280,200 Q275,180 270,160" fill="#ffffff" stroke="#e8e8e8" stroke-width="1.5" filter="drop-shadow(0px 1px 3px rgba(0,0,0,0.1))"/>
+  
+  <!-- Left Petals -->
+  <path d="M250,110 Q210,140 240,200 Q260,160 250,110" fill="#ffffff" stroke="#e8e8e8" stroke-width="1.5" filter="drop-shadow(0px 1px 3px rgba(0,0,0,0.1))"/>
+  <path d="M240,135 Q190,160 230,200 Q240,170 240,135" fill="#ffffff" stroke="#e8e8e8" stroke-width="1.5" filter="drop-shadow(0px 1px 3px rgba(0,0,0,0.1))"/>
+  <path d="M230,160 Q180,180 220,200 Q225,180 230,160" fill="#ffffff" stroke="#e8e8e8" stroke-width="1.5" filter="drop-shadow(0px 1px 3px rgba(0,0,0,0.1))"/>
+
+  <!-- Lotus Base Profile -->
+  <path d="M250,225 Q270,225 285,200 Q250,215 215,200 Q230,225 250,225 Z" fill="#ffffff" stroke="#e8e8e8" stroke-width="1.5"/>
+  <path d="M250,235 Q230,200 250,210 Q270,200 250,235" fill="#ffffff" stroke="#e0e0e0" stroke-width="1.5"/>
+
+</svg>

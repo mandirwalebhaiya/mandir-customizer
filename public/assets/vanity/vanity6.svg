@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <defs>
+    <linearGradient id="corianVanity" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f0f0f0"/>
+    </linearGradient>
+    <linearGradient id="corianDarker" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f9f9f9"/>
+      <stop offset="100%" stop-color="#e4e4e4"/>
+    </linearGradient>
+  </defs>
+  <!-- Main platform -->
+  <rect x="20" y="35" width="360" height="15" rx="2" fill="url(#corianVanity)" stroke="#cccccc" stroke-width="1.5"/>
+  <rect x="15" y="50" width="370" height="10" rx="2" fill="url(#corianDarker)" stroke="#cccccc" stroke-width="1.5"/>
+  <!-- Drawers/Front fascia -->
+  <rect x="25" y="60" width="350" height="35" rx="3" fill="url(#corianVanity)" stroke="#cccccc" stroke-width="1.5"/>
+  <!-- Drawer details -->
+  <rect x="40" y="65" width="100" height="25" rx="2" fill="#fafafa" stroke="#e0e0e0" stroke-width="1.5"/>
+  <circle cx="90" cy="77" r="4" fill="#d0d0d0"/>
+  <rect x="150" y="65" width="100" height="25" rx="2" fill="#fafafa" stroke="#e0e0e0" stroke-width="1.5"/>
+  <circle cx="200" cy="77" r="4" fill="#d0d0d0"/>
+  <rect x="260" y="65" width="100" height="25" rx="2" fill="#fafafa" stroke="#e0e0e0" stroke-width="1.5"/>
+  <circle cx="310" cy="77" r="4" fill="#d0d0d0"/>
+  <!-- Base legs -->
+  <rect x="35" y="95" width="15" height="15" rx="1" fill="url(#corianDarker)" stroke="#cccccc" stroke-width="1"/>
+  <rect x="145" y="95" width="15" height="15" rx="1" fill="url(#corianDarker)" stroke="#cccccc" stroke-width="1"/>
+  <rect x="240" y="95" width="15" height="15" rx="1" fill="url(#corianDarker)" stroke="#cccccc" stroke-width="1"/>
+  <rect x="350" y="95" width="15" height="15" rx="1" fill="url(#corianDarker)" stroke="#cccccc" stroke-width="1"/>
+  <!-- Small back trim -->
+  <path d="M25,35 L25,15 Q200,5 375,15 L375,35 Z" fill="url(#corianVanity)" stroke="#cccccc" stroke-width="1.5"/>
+  <path d="M160,20 Q200,10 240,20" fill="none" stroke="#dcdcdc" stroke-width="1.5"/>
+</svg>

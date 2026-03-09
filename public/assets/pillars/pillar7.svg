@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 280" width="80" height="280">
+  <defs>
+    <linearGradient id="corianPillar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fdfdfd"/>
+      <stop offset="30%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#f5f5f5"/>
+      <stop offset="100%" stop-color="#e8e8e8"/>
+    </linearGradient>
+    <linearGradient id="shadowPillar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#eaeaea"/>
+      <stop offset="50%" stop-color="#fefefe"/>
+      <stop offset="100%" stop-color="#dbdbdb"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ornate Capital (Top) -->
+  <rect x="5" y="10" width="70" height="8" rx="2" fill="url(#corianPillar)" stroke="#cccccc" stroke-width="1"/>
+  <rect x="10" y="18" width="60" height="6" fill="url(#shadowPillar)" stroke="#cccccc" stroke-width="1"/>
+  
+  <!-- Intricate carved capital bell/floral shape -->
+  <path d="M15,24 L65,24 Q70,50 40,50 Q10,50 15,24" fill="url(#corianPillar)" stroke="#cdcdcd" stroke-width="1"/>
+  <!-- Leaf/petal details in capital -->
+  <path d="M40,24 L40,48 M30,24 L35,46 M50,24 L45,46" stroke="#e0e0e0" stroke-width="1.5"/>
+
+  <rect x="25" y="50" width="30" height="8" rx="1" fill="url(#shadowPillar)" stroke="#cccccc" stroke-width="1"/>
+
+  <!-- Upper column ring -->
+  <rect x="20" y="58" width="40" height="6" fill="url(#corianPillar)" stroke="#cccccc" stroke-width="1"/>
+
+  <!-- Main Shaft (Fluted) -->
+  <rect x="22" y="64" width="36" height="150" fill="url(#corianPillar)" stroke="#cccccc" stroke-width="1.5"/>
+  <!-- Flute lines -->
+  <line x1="28" y1="64" x2="28" y2="214" stroke="#e6e6e6" stroke-width="1.5"/>
+  <line x1="34" y1="64" x2="34" y2="214" stroke="#e6e6e6" stroke-width="1.5"/>
+  <line x1="40" y1="64" x2="40" y2="214" stroke="#e6e6e6" stroke-width="1.5"/>
+  <line x1="46" y1="64" x2="46" y2="214" stroke="#e6e6e6" stroke-width="1.5"/>
+  <line x1="52" y1="64" x2="52" y2="214" stroke="#e6e6e6" stroke-width="1.5"/>
+
+  <!-- Column ring and hanging bell detail (mid/lower) -->
+  <rect x="18" y="214" width="44" height="6" fill="url(#corianPillar)" stroke="#cccccc" stroke-width="1"/>
+  <!-- Elephant / Bell shape -->
+  <path d="M22,220 L58,220 Q50,235 40,235 Q30,235 22,220" fill="url(#shadowPillar)" stroke="#cdcdcd" stroke-width="1"/>
+  <path d="M40,235 L40,245 M35,235 L38,243 M45,235 L42,243" stroke="#dcdcdc" stroke-width="1.5"/>
+
+  <!-- Base Elements -->
+  <rect x="25" y="245" width="30" height="8" rx="1" fill="url(#corianPillar)" stroke="#cccccc" stroke-width="1"/>
+  <rect x="20" y="253" width="40" height="10" rx="1" fill="url(#shadowPillar)" stroke="#cccccc" stroke-width="1"/>
+  <rect x="15" y="263" width="50" height="10" rx="2" fill="url(#corianPillar)" stroke="#cccccc" stroke-width="1"/>
+
+  <!-- Tiny lotus motifs at corners -->
+  <circle cx="20" cy="258" r="2" fill="#fafafa" stroke="#d0d0d0" stroke-width="0.5"/>
+  <circle cx="60" cy="258" r="2" fill="#fafafa" stroke="#d0d0d0" stroke-width="0.5"/>
+</svg>

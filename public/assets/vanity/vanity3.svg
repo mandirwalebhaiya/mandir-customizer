@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <!-- Drawer cabinet vanity -->
+  <!-- Main body -->
+  <rect x="20" y="10" width="360" height="105" rx="6" fill="url(#woodCab)" stroke="#5a2d0c" stroke-width="2.5"/>
+  <!-- Cabinet drawers -->
+  <rect x="30" y="20" width="110" height="38" rx="4" fill="#c87840" stroke="#5a2d0c" stroke-width="1.5"/>
+  <rect x="150" y="20" width="100" height="38" rx="4" fill="#c87840" stroke="#5a2d0c" stroke-width="1.5"/>
+  <rect x="260" y="20" width="110" height="38" rx="4" fill="#c87840" stroke="#5a2d0c" stroke-width="1.5"/>
+  <rect x="30" y="66" width="110" height="38" rx="4" fill="#c87840" stroke="#5a2d0c" stroke-width="1.5"/>
+  <rect x="260" y="66" width="110" height="38" rx="4" fill="#c87840" stroke="#5a2d0c" stroke-width="1.5"/>
+  <!-- Center door -->
+  <rect x="150" y="66" width="100" height="38" rx="4" fill="#d48050" stroke="#5a2d0c" stroke-width="1.5"/>
+  <text x="200" y="92" text-anchor="middle" font-size="18" fill="#5a2d0c" font-family="serif">ॐ</text>
+  <!-- Drawer handles (gold) -->
+  <ellipse cx="85" cy="39" rx="10" ry="4" fill="#d4a017" stroke="#8b5e1a" stroke-width="1"/>
+  <ellipse cx="200" cy="39" rx="10" ry="4" fill="#d4a017" stroke="#8b5e1a" stroke-width="1"/>
+  <ellipse cx="315" cy="39" rx="10" ry="4" fill="#d4a017" stroke="#8b5e1a" stroke-width="1"/>
+  <ellipse cx="85" cy="85" rx="10" ry="4" fill="#d4a017" stroke="#8b5e1a" stroke-width="1"/>
+  <ellipse cx="315" cy="85" rx="10" ry="4" fill="#d4a017" stroke="#8b5e1a" stroke-width="1"/>
+  <!-- Top surface -->
+  <rect x="20" y="8" width="360" height="10" rx="4" fill="#8B4513" stroke="#5a2d0c" stroke-width="1.5"/>
+  <defs>
+    <linearGradient id="woodCab" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7a3c12"/>
+      <stop offset="40%" stop-color="#a85820"/>
+      <stop offset="100%" stop-color="#7a3c12"/>
+    </linearGradient>
+  </defs>
+</svg>

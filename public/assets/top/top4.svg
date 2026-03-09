@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <!-- Flat top beam style -->
+  <rect x="10" y="50" width="380" height="60" rx="6" fill="url(#flatGold)" stroke="#8b5e1a" stroke-width="2"/>
+  <!-- Decorative top band -->
+  <rect x="10" y="50" width="380" height="14" rx="4" fill="#d4a017" stroke="#8b5e1a" stroke-width="1.5"/>
+  <!-- Embossed center panel -->
+  <rect x="120" y="20" width="160" height="40" rx="5" fill="url(#centerPanel)" stroke="#8b5e1a" stroke-width="1.5"/>
+  <!-- Om symbol center -->
+  <text x="200" y="47" text-anchor="middle" font-size="26" fill="#8b5e1a" font-family="serif" font-weight="bold">ॐ</text>
+  <!-- Side decorations -->
+  <circle cx="80" cy="38" r="18" fill="#f5d06e" stroke="#8b5e1a" stroke-width="1.5"/>
+  <text x="80" y="43" text-anchor="middle" font-size="14" fill="#8b5e1a" font-family="serif">✿</text>
+  <circle cx="320" cy="38" r="18" fill="#f5d06e" stroke="#8b5e1a" stroke-width="1.5"/>
+  <text x="320" y="43" text-anchor="middle" font-size="14" fill="#8b5e1a" font-family="serif">✿</text>
+  <!-- Bottom molding -->
+  <rect x="5" y="104" width="390" height="10" rx="3" fill="#b8840a" stroke="#8b5e1a" stroke-width="1.5"/>
+  <defs>
+    <linearGradient id="flatGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5d06e"/>
+      <stop offset="100%" stop-color="#c8a44a"/>
+    </linearGradient>
+    <linearGradient id="centerPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe090"/>
+      <stop offset="100%" stop-color="#d4a017"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -71,7 +71,7 @@ export default function BuilderPage() {
             Freeform
           </div>
           <Link 
-            href="/template"
+            href="/"
             className="px-3 py-1.5 text-xs font-medium rounded-md text-amber-100 hover:text-white transition-colors pointer-events-auto inline-block relative z-50"
           >
             Template

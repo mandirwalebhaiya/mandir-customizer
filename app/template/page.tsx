@@ -37,7 +37,7 @@ export default function TemplateBuilderPage() {
         <div className="flex items-center gap-2.5">
           <span className="text-2xl">🛕</span>
           <div>
-            <h1 className="text-base font-bold leading-tight tracking-wide">Mandir Builder</h1>
+            <h1 className="text-base font-bold leading-tight tracking-wide">Mandir Customizer</h1>
             <p className="text-[10px] text-amber-200 leading-tight">Fixed Template Mode</p>
           </div>
         </div>
@@ -46,7 +46,7 @@ export default function TemplateBuilderPage() {
 
         {/* Navigation Toggle */}
         <div className="flex items-center bg-black/20 rounded-lg p-1">
-          <Link 
+          <Link
             href="/builder"
             className="px-3 py-1.5 text-xs font-medium rounded-md text-amber-100 hover:text-white transition-colors"
           >

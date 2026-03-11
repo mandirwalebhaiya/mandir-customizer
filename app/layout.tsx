@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Mandir Builder – 2D Layout Designer",
+  title: "Mandir Customizer – 2D Layout Designer",
   description: "Design your custom mandir layout by dragging and assembling pillars, tops, back panels, and vanity pieces on an interactive canvas.",
 };
 
@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en">
       <body className={`${inter.className} antialiased`}>
         {children}
       </body>

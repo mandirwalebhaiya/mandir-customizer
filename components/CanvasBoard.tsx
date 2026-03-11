@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef, useState, useCallback } from "react";
-import { fabric } from "fabric";
 import { MandirPart } from "@/lib/fabricCanvas";
 
 interface CanvasBoardProps {
@@ -21,8 +20,10 @@ export default function CanvasBoard({ pendingPart, onPartAdded }: CanvasBoardPro
   useEffect(() => {
     let cleanupFns: (() => void)[] = [];
 
-    const initCanvas = () => {
-      // Use synchronous fabric import (already imported at top of file)
+    const initCanvas = async () => {
+      // ✅ FIX: Use dynamic import for fabric to ensure it only loads in the browser
+      const fabric = (await import("fabric")).fabric;
+
       if (!canvasEl.current) return;
 
       const canvas = new fabric.Canvas(canvasEl.current, {
@@ -152,7 +153,9 @@ export default function CanvasBoard({ pendingPart, onPartAdded }: CanvasBoardPro
     const canvas = fabricRef.current;
     setIsLoading(true);
 
-    const loadSVG = () => {
+    const loadSVG = async () => {
+      const { fabric } = await import("fabric");
+      
       fabric.loadSVGFromURL(
         pendingPart.src,
         (objects: any[], options: any) => {
